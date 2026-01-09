@@ -98,6 +98,9 @@
     text-align: center;
     margin-bottom: 44px;
 }
+.notes{
+    margin-bottom: 120px;
+}
 .notes-container h2{
     font-size: 48px;
     font-weight: bold;
@@ -137,4 +140,75 @@
    font-weight: 400;
    line-height: 20px;
     text-align: center; 
+}
+
+#brain{
+    margin-bottom: 120px;
+}
+.brain-container{
+display: flex;
+justify-content: space-between;
+align-items: center;
+gap:60px;
+}
+.text-content span{
+    color:#469165;
+    
+    text-transform: uppercase;
+    font-weight: 500;
+    
+}
+.text-content h2{
+    font-size: 48px;
+    line-height: 58px;
+    font-weight: 700;
+    text-align: left;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    text-transform: capitalize;
+}
+.text-content .para{
+    font-weight: 400;
+    line-height: 20px;
+    color:#627382;
+    margin-bottom: 40px;
+}
+.text-content ul li{
+    list-style: none;
+    display: flex;
+    margin-bottom: 16px;
+    
+   
+}
+
+.ready{
+    margin-bottom: 120px;
+}
+.ready-container{
+    padding:80px 40px;
+    background-color: #F7F6F2;
+    text-align: center;
+}
+.ready-container h2{
+    font-size: 40px;
+    font-weight: 700;
+    text-transform: capitalize;
+    margin-bottom: 16px;
+}
+.ready-container p{
+    font-weight: 400;
+    text-align: center;
+    line-height: 24px;
+    color:#627382;
+    margin-bottom: 24px;
+}
+.ready-btn{
+    padding:12px 16px;
+    background-color: #469165;
+    border:none;
+    border-radius: 4px;
+    color:white;
+    cursor: pointer;
+    margin-bottom: 16px;
+
 }

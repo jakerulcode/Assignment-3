@@ -23,6 +23,11 @@
     gap:24px;
     list-style: none;
 
+
+}
+.btn-banner:hover{
+    background-color: white;
+    color: #30B868;
 }
 .nav-container .btn{
     padding:12px 16px;
@@ -32,6 +37,10 @@
     color:white;
     cursor: pointer;
 
+}
+.btn:hover{
+    background-color: white;
+    color: #469165;
 }
 .hero{
     background-image: url(assets/hero-bg.png);
@@ -51,6 +60,10 @@
     color: #469165;
     cursor: pointer;
     margin-bottom: 16px;
+}
+.content-btn:hover{
+     background-color:#469165;
+     color:white;
 }
 .hero-content h1{
     font-size: 72px;
@@ -76,16 +89,23 @@
     border-radius: 4px;
     color:white;
     cursor: pointer;
-    
-    /* display: flex;
-    align-items: center; */
+    .hero-content .btn-banner{
+    background-color: white;
+    color: #469165;
+
+    }
 }
 .hero-content .btn-banner2{
   padding:12px 16px;
   border:1px solid rgba(255, 255, 255, 1);
     border-radius: 4px;
     color:#FFFFFF;
-    background-color: transparent;  
+    background-color: transparent;
+    cursor: pointer;  
+}
+.btn-banner2:hover{
+    background-color: white;
+    color:black;
 }
 .hero-btn{
     gap:16px;
@@ -211,4 +231,44 @@ gap:60px;
     cursor: pointer;
     margin-bottom: 16px;
 
+}
+.ready-btn:hover{
+    background-color:white;
+     color:#469165;
+
+}
+.footer-container{
+    background-color: #001931;
+    /* display: flex; */
+    /* height: 348px; */
+    padding: 120px 120px 30px 120px;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer-logo img{
+    width: 139px;
+height: 60px;
+}
+.footer-social p{
+    color:#FFFFFF;
+    font-size: 20px;
+    line-height: 28px;
+    font-weight: 500;
+    margin-bottom: 16px;
+}
+.social-icon span{
+    color: white;
+}
+.copy-write p{
+    color: white;
+    text-align: center;
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom:80px;
+}
+hr{
+    margin-bottom: 30px;
 }

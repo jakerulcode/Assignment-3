@@ -94,3 +94,47 @@
 .hero-btn{
     text-align: center;
 }
+.heading-section{
+    text-align: center;
+    margin-bottom: 44px;
+}
+.notes-container h2{
+    font-size: 48px;
+    font-weight: bold;
+    color:#001931;
+    margin-bottom: 16px;
+    
+}
+.notes-container p{
+    font-size: 16px;
+    color:#627382;
+}
+.card-box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    gap:24px;
+    margin-bottom: 72px;
+}
+.card{
+   padding:24px;
+  box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.06);
+}
+.card img{
+    background: rgba(249, 85, 85, 1);
+    padding: 14px;
+    border-radius: 60px;
+    margin-bottom:16px;
+}
+.card h4{
+    font-size: 24px;
+    font-weight: 600;
+    color:#001931;
+    margin-bottom: 16px;
+}
+.card p{
+   font-weight: 400;
+   line-height: 20px;
+    text-align: center; 
+}
